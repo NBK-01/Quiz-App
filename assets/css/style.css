@@ -4,3 +4,19 @@
 --accent: #5375e2;
 --error: #f65868;
 }
+
+
+body{
+    background-color: var(--dark)
+}
+
+nav{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.nav-wrapper{
+    background-color: transparent;
+    border-radius: 15px;
+    border-bottom: 3px solid var(--error);
+}
