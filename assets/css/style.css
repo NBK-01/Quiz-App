@@ -1,8 +1,7 @@
 :root{
 --dark: #5c616e;
 --text: #fefefe;
---accent: #5375e2;
---error: #f65868;
+--accent: #f65868;
 }
 
 
@@ -18,5 +17,21 @@ nav{
 .nav-wrapper{
     background-color: transparent;
     border-radius: 15px;
-    border-bottom: 3px solid var(--error);
+    border-bottom: 3px solid var(--accent);
+}
+
+button{
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--text);
+    border: 1px solid var(--accent);
+    padding: 6px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--accent);
+
 }
