@@ -35,3 +35,12 @@ button:hover{
     background-color: var(--accent);
 
 }
+
+.valign-wrapper{
+    margin: 0px;
+	padding:0px;
+	position:absolute;
+	top: 45%;
+    left: 45%;
+	transform: translateY(-50%);
+}
